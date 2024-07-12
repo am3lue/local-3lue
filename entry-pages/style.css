@@ -1,0 +1,121 @@
+body{
+    background-color: rgb(16, 42, 88);
+    font-family: 'Courier New', Courier, monospace;
+    animation: back11 4s ease-in-out infinite;
+}
+
+h1 ,h2{
+    position: relative;
+    text-align: center;
+}
+
+a {
+    width: auto;
+    height: .5rem;
+    padding: .5rem;
+    margin: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    text-decoration:none !important;
+    color:black;
+    border: line;
+    border-radius: 0.5rem;
+    border-width: 0.1rem;
+    background-color: rgba(196, 228, 255, 0.589);  
+}
+
+fieldset{
+    padding: auto;
+    margin: .4rem;
+    width: auto;
+    height: auto;
+    max-width: fit-content;
+    max-height: fit-content;
+    min-width: fit-content;
+    min-height: fit-content;
+    border: line;
+    border-radius: 0.9rem;
+    border-width: 0.1rem;
+}
+
+
+.head1, legend{
+    background-color: transparent;
+    padding: 0.5rem;
+    border-radius: 0.9rem;
+    animation: font11 4s ease-in-out infinite;
+}
+input{
+    position: relative;
+    padding: 1rem;
+    float: right;
+    width: auto;
+    height: auto;
+    margin: 1.5rem;
+    max-width: 40rem;
+    min-width: 20rem;
+    max-height: fit-content;
+    min-height: fit-content;
+    border: line;
+    border-radius: 0.5rem;
+    border-width: 0.1rem;
+    background-color: transparent;
+    color: aliceblue;
+    font-size: large;
+}
+
+label{
+    position: relative;
+    padding: 1rem;
+    float: left;
+    width: auto;
+    height: auto;
+    margin: 1rem;
+    max-width: auto;
+    min-width: auto;
+    max-height: fit-content;
+    min-height: fit-content;
+    border: line;
+    border-radius: 0.5rem;
+    border-width: 0.1rem;
+    background-color: transparent;
+    color: aliceblue;
+    font-size: large;
+}
+
+button{
+    float: left;
+    padding: 0.9rem;
+    margin: 1rem;
+    width: auto;
+    height: auto;
+    color: black;
+    background-color: rgba(196, 228, 255, 0.589);
+    border-radius: 0.5rem;
+    border: line;
+    font-size: large;
+}
+
+footer{
+    position:relative;
+    animation: font11 4s ease-in-out infinite;
+    float: inline-end;
+}
+
+@keyframes back11{
+    0%{ background-color: rgb(0, 14, 80); }
+    20%{ background-color: rgb(0, 32, 102) }
+    40%{ background-color: rgb(0, 35, 126); }
+    60%{ background-color: rgb(0, 35, 126); }
+    80%{ background-color: rgb(0, 32, 102); }
+    100%{ background-color: rgb(0, 14, 80); }
+}
+
+@keyframes font11{
+    40%{  color: rgb(150, 155, 219); }
+    20%{  color: rgb(26, 59, 129) }
+    0%{  color: rgb(150, 155, 219); }
+    100%{  color: rgb(150, 155, 219); }
+    80%{  color: rgb(26, 54, 129); }
+    60%{  color: rgb(150, 155, 219); }
+}

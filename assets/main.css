@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(16, 42, 88);
+    font-family: 'Courier New', Courier, monospace;
+    animation: back11 4s ease-in-out infinite;
+    margin: 1.5rem;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    align-tracks: center;
+    text-align: center;
+}
+
+h1 ,h2{
+    position: relative;
+    text-align: center;
+}
+
+a {
+    width: auto;
+    height: .5rem;
+    padding: .5rem;
+    margin: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    text-decoration:none !important;
+    color:black;
+    border: line;
+    border-radius: 0.5rem;
+    border-width: 0.1rem;
+    background-color: rgba(196, 228, 255, 0.589);  
+    &:hover{
+        background-color: transparent;
+        color:rgba(196, 228, 255, 0.589);
+        border: line;
+        border-width: 0.1rem;
+    }
+}
+
+fieldset{
+    padding: auto;
+    margin: .5rem;
+    width: auto;
+    height: auto;
+    max-width: 60rem;
+    max-height: 50rem;
+    min-width: auto;
+    min-height: 30rem;
+    border: line;
+    border-radius: 0.9rem;
+    border-width: 0.1rem;
+}
+
+
+.head1{
+    background-color: transparent;
+    padding: 0.5rem;
+    border-radius: 0.9rem;
+    animation: font11 4s ease-in-out infinite;
+}
+
+footer{
+    position:relative;
+    animation: font11 4s ease-in-out infinite;
+    float: inline-end;
+    margin: auto;
+    max-width: fit-content;
+    min-width: none;
+    max-height: fit-content;
+    min-height: none;
+}
+
+@keyframes back11{
+    0%{ background-color: rgb(0, 14, 80); }
+    20%{ background-color: rgb(0, 32, 102) }
+    40%{ background-color: rgb(0, 35, 126); }
+    60%{ background-color: rgb(0, 35, 126); }
+    80%{ background-color: rgb(0, 32, 102); }
+    100%{ background-color: rgb(0, 14, 80); }
+}
+
+@keyframes font11{
+    40%{  color: rgb(150, 155, 219); }
+    20%{  color: rgb(26, 59, 129) }
+    0%{  color: rgb(150, 155, 219); }
+    100%{  color: rgb(150, 155, 219); }
+    80%{  color: rgb(26, 54, 129); }
+    60%{  color: rgb(150, 155, 219); }
+}
